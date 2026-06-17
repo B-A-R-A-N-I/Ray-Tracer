@@ -25,6 +25,7 @@ set ( SOURCE_ONE_WEEKEND
   src/inOneWeekend/hittable_list.h
   src/inOneWeekend/rtweekend.h
   src/inOneWeekend/interval.h
+  src/inOneWeekend/camera.h
 )
 
 include_directories(src)
