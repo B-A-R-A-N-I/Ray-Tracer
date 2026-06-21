@@ -1,7 +1,9 @@
 # Ray Tracer
 
-A simple ray tracer written in C++. This project uses **Anti-Aliasing** and **Defocus blur (Depth of Field)** features to render the scene. The scene is rendered with different camera angles with same **Field of View (FOV)** to note the difference on camera focus.
+A simple ray tracer written in C++. The renderer uses **Anti-Aliasing** and **Defocus blur (Depth of Field)** features and each scene is rendered with different camera angles.
 
-<img width="1280" height="720" alt="image1" src="https://github.com/user-attachments/assets/36fcc755-82d0-4e96-8779-c5933f4fda3b" />
-<img width="1280" height="720" alt="image2" src="https://github.com/user-attachments/assets/8654c594-da66-4aa8-a6cc-08d384835d30" />
-<img width="1280" height="720" alt="image3" src="https://github.com/user-attachments/assets/31e19f03-3f10-4b24-9db4-d2f344fee04f" />
+## Depth of Field test
+The image on the left was rendered without any Depth of Field. So the camera focuses all the objects in the scene and each of them appears clearly on the final render. But the image on the right uses Depth of Field to mainly focus on the center object so the other two objects in the scene are blurred.
+
+<img width="400" height="225" alt="image9" src="https://github.com/user-attachments/assets/872df609-db77-4bdb-b7d5-cf5ea2e1f4d4" />
+<img width="400" height="225" alt="image10" src="https://github.com/user-attachments/assets/4103576b-4077-4eea-b572-d2306967c5d3" />
